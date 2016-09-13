@@ -1,0 +1,24 @@
+1. what is a Class, Object, Reference?
+	
+	Class: A class is a user defined data type with set of data members & member functions.
+	Object: An Object is an instance of a class.
+	Reference: A reference is just like a pointer pointing to an object.
+	
+2. What are the other ways to create an object other than creating as new object?
+	
+	1.class.forName: Classname obj = Class.forName("Class Name").newInstance();
+	2.object.clone
+	
+1.Use Of Inner Class??
+
+	Defining a class within another class allows you to *recursively* use OO concepts within smaller sub-problem of the main problem.
+	Fundamentally, that's what a class is in OO. A class is created by the programmer to abstract out and solve a sub-problem of the larger main problem.
+	However, any one of a programmer's defined classes can have its own inner nested structure.
+	Defining inner classes that are completely enclosed in the outer class to solve its sub-problem is a recursive use of OO.
+	
+	Example: You may have class Car that also defines an inner class FuelPumpTypeA (abstraction) and that may extend an abstract global FuelPump type (polymorphism & inheritance).
+	This FuelPumpType A can be defined privately and only ever used within class Car. You *could* have declared FuelPumpTypeA outside of Car but,
+	if its never meant to be used outside of Car, you are are over-scoping FuelPumpTypeA. In general, you want to keep variable scope as tight as possible to have a clean design (encapsulation),
+	this is the same thing but applied at the class level. Everyone knows that global variables are generally considered bad and should be avoided when possible.
+	Same thing can be said of global classes that were never meant to be global. Private hidden inner classes are the most useful instance of inner classes IMO.
+	FuelPumpTypeA within Car is a full class in its own right with full Abstraction, Polymorphism, Encapsulation and Inheritence. It was created to solve a sub-problem within class Car.

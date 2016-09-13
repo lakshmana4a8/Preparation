@@ -1,0 +1,112 @@
+Core JAVA/J2EE
+== and equals difference
+Different Out of memory errors?When will you get it?How to resolve?
+If you want to maintain insertion order in a set which will you use?
+What is Servlet?What is Jsp?Diffrences?
+Servlet,JSP life cycle,init service,destroy methods?Can we call destroy in init?What will happen?
+How do you invoke Garbage collector manually?What will happen?
+What is final,finalize,finally?
+Checked Exceptions vs Unchecked Exceptions?
+How do you handle exceptions?throw vs throws?
+What are the different exceptions on String?
+Parent class throws FileNotFoundException.Can child class throws IOException?Why?(IOException is a super-class of FileNotFoundException)
+Multi threading Deadlock situation,How to resolve?
+wait vs notify?
+Thread life cycle?
+Thread run method vs Start method?What happen if you call Thread.run()?
+Why wait,notify  are in Object class instead of Thread?
+Threads time slicing?
+What is Serialization?
+Program to eliminate duplicates  from given list(without using Set)
+What is Transient Variable?How do you store transient variable in DB without Serialization?
+How do you implement your own Serialization?
+What is Serial UID?When it will be used?
+What are the JVM memory areas?
+What is static keyword?On Which we can use static keyword like block,class,variable,method?
+What is synchronized?Can we use it before class?
+Static method disadvantages?
+When static variables are initialized?
+What is Immuatblity?How to you write a own immutable class?
+Where String Objects are stored with new String and literals?(Heap/Stack)
+Equals and Hashcode?What happen if you override equlas and if you won't override hashcode?
+How Hashmap works?
+Different collections.When will you use which collection?
+what are the container classes?
+How many ways you can create Object?
+What is Cloning?Shallow cloning ,Deep cloning?
+Methods in Object Class?
+JDBC Connection,datasouces,Syntax to get DB connection,Explain how it works?
+Connection pooling.How it behaves?How it will close?How you will get a Connection?how to get/close connection using Dynamic proxies etc..
+Socket time out?
+Design patterns ?
+
+Data Structures?
+How do you implement Hashmap?
+Stack implementation?
+Queue implementation?Enqueue,Dequeue methods implementation? 
+If you want to add or delete element from same end which Data Structure you use?
+What are different Sorting algorithms?Algorithm for Quick Sort?
+
+Class diagrams for some problems..
+
+
+Programs/Algorithms?
+Program to eliminate duplicates  from given list(without using Set)
+Given a String I am Avinash.Print Avinash am I?
+Program to identify Pythogorous Triplets from a given numbers set(like 3,4,5  6,8,10  5 square=3 square+4square)
+Given a csv file with Duplicate employee IDs.Read the file and eliminate duplicate employees and insert into employee Table program
+Restrict the TEXT field to eliminate cross side scripting(use java/javascript)
+Some Cities are connected through roads.Given city names ,Distance between the cities.We can go from one city to another city with a maximum of one stop.
+How do you store the data?How to you calculate the minimum distance has to be travelled?
+Given a array with both positives and negatives numbers.Retreive sub array which gives maximum sum.Without Exchanging the numbers?
+Given a railway Track,Train speeds,Safety Distance between Trains,Train length.How do you calculate maximum number of Trains that can be run on the Track.Formula/Algorithm?
+Towers of Hanoi Program?
+
+
+Spring
+
+What is Spring IOC,Dependency Injection?
+What is Singleton ,Prototype?
+Explain Spring Transactions?
+What are the the Spring Transaction Propagation Types?
+How do you create datasource in Spring?
+
+Hibernate
+What is ORM?Advantages?
+What is Cascade?Different Cascade types?
+save,saveOrUpdate,merge difference?
+How to detach object?How to reattach?
+one to one,many to one,many to many mappings?How many Tables involved?
+
+
+
+SQL
+Given assembly like Car,Lorry etc.Car has 4 doors,2 head lights,4 wheels,1 steering,1 accelerator,1 engine etc.Head light has 1 glass,1 bulb like that sub assembly.
+It should be extensible.DB Design and class diagram.Which collections you Use?
+Ques:Input assembly name and component.Calculate number of components that has to be used Program?
+Given prices Calculate price to build the assembly?
+espncricinfo cricket scores.ball by ball scores,commentry,venues,individual scores,wickets,won by how many runs,Player highest scores,Team scores etc.. DB design
+Based on the DB design some questions.How many runs Mathew hayden has scored in akthar bowling in Adelite on respective Date?
+and some other ques Based on the Design
+railway reservation System DB Design.If a person book a ticket How do you implement DB Logic?
+Teachers teaches subjects.Data is stored in Table.Query to retrieve the Teacher names who Teaches both English and maths?
+Pharmacy shop.Drugs,Stocks,Prices etc.DB design.Highest sold drug,2nd highest sold Drug
+What are the different Joins .Explain?
+Given a employee Table.table contains employee id,employee name,manager ID.query to get employee name and manager name only for non-managers 
+Primary key vs surrogant key?
+Difference between left join vs right outer join?
+2nd Highest in a row?
+DDL ,DML vs DCL?
+
+
+JMS/WebServices
+JMS vs web services
+xsd vs wsdl?
+Soap vs Rest Differences?
+Rest advantages?
+Soap wsdl?
+Security in web services?
+How you have implemented in your project?
+
+
+

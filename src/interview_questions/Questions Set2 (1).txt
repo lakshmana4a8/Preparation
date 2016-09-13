@@ -1,0 +1,48 @@
+Hibernate and SQL:::
+
+1. What is the difference b/w stored procedure and function?
+2. Can we do data manipulation operations(update, Insert, Delete) on a view created using different DB tables?
+3. What is first level cache in Hibernate ? Will it be enabled by Default?
+4. save vs persist() methods in Hibernate?
+5. How many Tables are involved in  a many-to-many mapping in Hibernate?
+6. What are the propagation levels present in Spring @transactional ? and what is the default Propagation level?
+7. what is cascading property in Hibernate?
+8. Save vs saveOrUpdate vs merge() methods in Hibernate?
+9. Load vs get() methods in Hibernate?
+10.What are the different isolation levels in Spring Transaction?
+11. What is Spring-booting? 
+12. What is the property that needs to provide in Hibernate Configurations to make it identify to which Database specific queries need to be generated at runtime/
+13. Is it mandatary to mention the dialect property in Hibernate Configurattion to detect and generate database specific queries?
+14. How do you call a stored procedure from Hibernate?
+15.
+
+
+JAVA:::
+
+1  What do u know abt time complexity?
+2. I have a 4 GB RAM and If there are 250 processes and each process can take up to max memory of  4 GB. When you run all the processes.Will the processes run,What will happen?
+3. Differeces b/w a thread vs a Process?
+4. what is Context Switching in Threads?
+5. What is Builder pattern? purpose of builderPattern?
+6. explain the sequence how static blocks, member variables and constructors executed when we createan object in java?
+7. If I set a static variable of a class to some value somewhere in my application. What happens?
+8. Error vs Exception?
+9. Can we use throws Error in java code? Will I get compilation error? 
+10. Default size of arraylist? Ans : 10
+11.
+
+
+
+1.What is Dependency injection in Spring?
+2. Can you 
+
+http://www.programcreek.com/2014/05/leetcode-isomorphic-strings-java/
+http://javarevisited.blogspot.com/2015/01/top-20-string-coding-interview-question-programming-interview.html
+http://javaconceptoftheday.com/how-to-find-all-pairs-of-elements-in-an-array-whose-sum-is-equal-to-a-given-number/
+http://javaconceptoftheday.com/differences-between-program-vs-process-vs-threads/
+http://javaconceptoftheday.com/anagram-program-in-java/
+http://javaconceptoftheday.com/check-one-string-is-rotation-of-another/
+http://javaconceptoftheday.com/java-program-to-remove-all-white-spaces-from-a-string/
+http://javaconceptoftheday.com/java-interview-programs-on-strings/
+http://illegalargumentexception.blogspot.com/2008/08/java-int-versus-integer.html
+http://mindprod.com/jgloss/intvsinteger.html

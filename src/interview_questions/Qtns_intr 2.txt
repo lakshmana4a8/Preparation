@@ -1,0 +1,109 @@
+1.Difference b/w Collection and Collections?
+2.What are the classes derieved from collection?
+3.Is map derived from Collection Interface?
+4.Singleton Pattern and how to achieve it?
+5.Wait and Notify explain them..
+6.Sleep vs wait ?
+7.How to make the collection classes synchronized?
+8.When do we get Concurrent modification Exception?
+9.What is fail fast/ Fail Safe ?
+10.What is concurrent Hash Map?
+11.How HashMap works in java?
+12.List some sorting algorithms? What is the sorting algorithm used in Java 1.7?
+ Ans: Dual Pivot Quick sort , Previously it is Merge sort, Current version uses tim Sort..
+13.Why is Map not inherited from Collection Interface?
+14.What are some utility methods in Collections Class?
+15.What are the properties that need to be satisfy for a class in  order to make it as a key in hashMap?
+16.What is advantage of using HashCode?
+17.Equals, Hashcode contract Explain?
+18.Is it mandatary to override hashcode() method if equals() metod is already implemented?19
+19.Why is performance better in ConcurrentHashMap?
+20.What is vector? List some legacy classes in Collection?
+21.HashTable vs HashMap?
+22.Does a HashMap allows null as a key?
+23.What is Identity HashMap? Do we really need to implement equals() and hashcode methods for keys in Identity Hash Map?
+24.Does a Hashtable allows null as key?
+25.When System.exit() is called in try block  does Finally block executes or not?
+26.What is the output:
+    Syso(010|4);
+27. Can we refer a singleton bean from a prototype bean?
+28.Explain abt OOPs?
+29.If parent class method a() throws FileNotFoundException. Can a sub class overriden method throws IOException?
+30.Covarient return types?
+31.What is Binary Search algorithm? Write a piece of code to implement the same in a sorted int array..
+32.If Class father has method talk() ans Class Mother has method walk(). How a sun class can be implemented to have both sleep() and talk() behaviour?
+33.Can we make a user thread as Deamon thread after start() method call of a thread?
+34.Can we invoke start() method twice on a thread? Can we invoke run() method twice on a thread? What happens ?
+35.Explain Transcient and volatile keyword?
+36.Will there be any impact if we declare transcient on a final variable?
+37.What is diff b/w thread and a process?
+38.Will each thread maintain a separate memory ?
+39.Can we assign an byte value to an int?
+int i=20;
+byte b= i;
+Is it possible?Why?
+40.Can we assign an int value to a byte reference?
+byte b= 50;
+int i = b;
+Is it possible? Why?
+41.Difference new operator vs newInstance() method?
+42. Difference b/w cast() vs instance of ?
+43.What is narrowing and widening?
+44.What is reflection API? 
+45.Will a new instance of an object is created while deserialization?If so.. How to eliminate the new instance creation and mantain singleton property on that object..
+46.What is a marker interface and can we create a custom marker interface?
+50.Does constructor gets called while objectInputStream.readObject() method call during deserialization of object in java? If not how JVM creates deserialized Object?
+51.What is the use of Static keyword?
+52.Can we make a class static?
+53.Difference b/w String s="manmadh";  and String s= new String("Manmadh");
+54.What is Marker Interface? List some marker interfaces.
+55.What is functional interface? List some.
+56.Access Modifiers.
+57.Preemptive Scheduling vs Time Slicing?
+58. Proces vs Threads
+59.When does @Qualifier annotation used in spring IOC?
+60.0.0/0 --NAN
+61.1/0.0  -- infinity
+62.-1/0.0  --  -infinity
+
+galanu = mudiyum
+
+vella galanu = pooga mudiyum
+chadava galanu = padikka mudiyum
+paada galanu = paada mudium
+nerchuko galanu = katrukolla mudiyum
+matlada galanu = pesa mudiyum
+tinagalanu = saappida midiyum
+chuda galanu = paarka mudiyum
+chellincha galanu = katta mudiyum
+vraya galanu = eLuda mudiyum
+nadava galanu = nadakka mudiyum
+
+nenu vella galanu = ennaL pooga mudiyum
+manam vella galamu = emgaLaL pooga mudiyum
+meeru vella galaru = umgaLaL pooga mudiyum
+athanu vella galadu = avaraL pooga mudiyum
+aame vella galadhu = avaLaL pooga mudiyum
+vaaru vella galaru = avargaLaL pooga mudiyum
+
+lenu = mudiyadhu
+
+vellalenu = pooga mudiyadhu
+chadavalenu = padikka mudiyadhu
+paadalenu = paada mudiyadhu
+nerchukolenu = katrukolla mudiyadhu
+matladalenu = pesa mudiyadhu
+tinalenu = saapida mudiyadhu
+chudalenu = paarka mudiyadhu
+chellinchalenu = katta mudiyadhu
+vrayalenu = eLuda mudiyadhu
+nadavalenu = nadakka mudiyadhu
+
+nenu vellalenu = ennaL pooga mudiyadhu
+manam vellalenu = emgaLaL pooga mudiyadhu
+meeru vellalenu = umgaLaL pooga mudiyadhu
+athanu vellalenu = avaraL pooga mudiyadhu
+aame vellalenu = avaLaL pooga mudiyadhu
+vaaru vellalenu = avargaLaL pooga mudiyadhu
+
+galiganu = mudimdhadhu
